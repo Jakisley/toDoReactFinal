@@ -1,0 +1,44 @@
+.todoAddContainer {
+  box-shadow: inset 0 -2px 1px rgb(0 0 0 / 9%);
+  padding: 2px;
+}
+
+.todoAdd {
+  width: 88%;
+  font-size: 24px;
+  line-height: 1.4em;
+  border: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+:focus {
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+::placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.checkAllTodoBtn {
+  width: 7%;
+  text-align: center;
+  height: 41px;
+  border: none;
+  margin: 10px 13px 10px 10px;
+  float: left;
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: #e6e6e6;
+  background: none;
+  cursor: pointer;
+}
+
+.checkAllTodoBtnActive {
+  color: #737373;
+}
